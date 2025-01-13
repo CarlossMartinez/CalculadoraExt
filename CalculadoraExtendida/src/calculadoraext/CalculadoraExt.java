@@ -14,7 +14,12 @@ public class CalculadoraExt {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Potencia potencia = new Potencia();
+        Division division = new Division();
+        int a = 3;
+        int b = 2;
+        System.out.println(potencia.CalculaPotencia(a, b));
+        System.out.println(division.dividir(a,b));
     }
     
 }
