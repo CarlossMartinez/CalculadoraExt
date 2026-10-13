@@ -13,7 +13,7 @@ public class Potencia {
     public int CalculaPotencia(int base, int exponente){
         int total = base;
         for (int i = 0; i<exponente;i++){
-        total = total*base;
+            total = total*base;
         }
         return total;
 
